@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\maze.h">
+      <UniqueIdentifier>{4160aaed-7d31-4b34-9e96-8c5f52f39b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\route.h">
+      <UniqueIdentifier>{a611bd57-4bbd-417e-b079-3a072191adc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\dispaly.h">
+      <UniqueIdentifier>{448e6c62-99ab-4262-b004-1c58d9a2c3c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="display.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maze.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="route.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MIM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mazefree.cpp">
+      <Filter>源文件\maze.h</Filter>
+    </ClCompile>
+    <ClCompile Include="randommazegenerate.cpp">
+      <Filter>源文件\maze.h</Filter>
+    </ClCompile>
+    <ClCompile Include="route.cpp">
+      <Filter>源文件\route.h</Filter>
+    </ClCompile>
+    <ClCompile Include="mazetotxt.cpp">
+      <Filter>源文件\maze.h</Filter>
+    </ClCompile>
+    <ClCompile Include="getmazeinput.cpp">
+      <Filter>源文件\maze.h</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>源文件\dispaly.h</Filter>
+    </ClCompile>
+    <ClCompile Include="mazeprint.cpp">
+      <Filter>源文件\maze.h</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
